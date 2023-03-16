@@ -11,11 +11,11 @@ const NavBar = () => {
 
     return(
         <header>
-            <h3>Jing Fong</h3>
+            <h3 id="jing-fong">Jing Fong</h3>
             <nav ref={navRef}>
-                <a href="#">Home</a>
-                <a href="#">Menu</a>
-                <a href="#">Gallery</a>
+                <a href="#Home" className='link'>Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
                 <a href="#">Coupons</a>
                 <a href="#">Feedback</a>
                 <button className='nav-btn nav-close-btn' onClick={toggleNavBar}>

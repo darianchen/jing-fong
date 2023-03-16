@@ -13,6 +13,8 @@ const FooterComponent = () => {
                 <br />
                 <br />
                 Telephone: (603) 444-6688
+                <br />
+                (603) 444-6288
             </p>
         </div>
         <div className="footer-section">
