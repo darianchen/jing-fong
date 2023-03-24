@@ -8,7 +8,6 @@
   color: #fff;
   padding: 2rem;
   text-align: center;
-  height: 200px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -40,4 +39,19 @@
 .footer-section-content {
   font-size: 1rem;
   margin: 0;
+}
+
+.map-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.footer-section-content a{
+  color: white;
 }
