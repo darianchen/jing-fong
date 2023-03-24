@@ -3,11 +3,12 @@ import sesameChicken from "../../assets/Images/sesame-chicken.png";
 import porkFriedRice from "../../assets/Images/pork-fried-rice.jpeg";
 import chickenWings from "../../assets/Images/chicken-wings.jpeg";
 import frenchFries from '../../assets/Images/french-fries.jpeg';
+import crabRangoons from '../../assets/Images/crab-rangoons.jpeg';
 import "./index.css";
 
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const slides = [sesameChicken, porkFriedRice, chickenWings, frenchFries];
+  const slides = [sesameChicken, porkFriedRice, chickenWings, frenchFries, crabRangoons];
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -30,6 +31,20 @@ const Slider = () => {
     setCurrentIndex(nextIndex);
   };
 
+  const renderDots = () => {
+    return (
+      <div className="slider-dots">
+        {slides.map((slide, index) => (
+          <span
+            key={index}
+            className={`slider-dot ${index === currentIndex ? 'active' : ''}`}
+            onClick={() => setCurrentIndex(index)}
+          />
+        ))}
+      </div>
+    );
+  };
+
   return (
     <div className="slider-container">
       <div className="slider-prev" onClick={handlePrev}>
@@ -39,6 +54,7 @@ const Slider = () => {
       <div className="slider-next" onClick={handleNext}>
         {">"}
       </div>
+      {renderDots()}
     </div>
   );  
 };
