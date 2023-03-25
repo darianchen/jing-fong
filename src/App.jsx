@@ -1,14 +1,19 @@
-import { useState } from 'react'
-import './App.css'
-import SplashPage from './Components/SplashPage'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavBar from './Components/NavBar';
+import SplashPage from './Components/SplashPage';
+import './App.css';
 
 function App() {
-
   return (
-    <div>
-      <SplashPage/>
-    </div>
-  )
+    <>
+    <NavBar />
+    <Router>
+      <Routes>
+        <Route path="/" element={<SplashPage />} />
+      </Routes>
+    </Router>
+    </>
+  );
 }
 
-export default App
+export default App;

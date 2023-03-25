@@ -7,17 +7,17 @@ const NavBar = () => {
 
     const toggleNavBar = () => {
         navRef.current.classList.toggle("responsive_nav");
-    }
+    };
 
     return(
-        <header>
+        <header id='main-header'>
             <h3 id="jing-fong">Jing Fong</h3>
             <nav ref={navRef}>
-                <a href="#Home" className='link'>Home</a>
-                <a href="#menu">Menu</a>
-                <a href="#gallery">Gallery</a>
-                <a href="#">Coupons</a>
-                <a href="#">Feedback</a>
+                <a href="/" className='link'>Home</a>
+                <a href="/menu">Menu</a>
+                <a href="/gallery">Gallery</a>
+                <a href="/coupons">Coupons</a>
+                <a href="/feedback">Feedback</a>
                 <button className='nav-btn nav-close-btn' onClick={toggleNavBar}>
                     <FaTimes/>
                 </button>
@@ -26,7 +26,7 @@ const NavBar = () => {
                 <FaBars/>
             </button>
         </header>
-    )
-}
+    );
+};
 
 export default NavBar;
