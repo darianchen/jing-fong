@@ -16,7 +16,7 @@
 }
 
 #jing-fong{
-    font-family: 'Babylonica', cursive;
+    font-family: 'Mistral';
     font-size: 40px;
 }
 
@@ -62,7 +62,7 @@ header .nav-btn {
     outline: none;
     visibility: hidden;
     opacity: 0;
-    font-size: 1.8rem;
+    font-size: 1.8rem
 }
 
 header a {
@@ -81,7 +81,7 @@ nav a:hover{
     color: var(--hoverColor);
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 767px) {
     header .nav-btn {
         visibility: visible;
         opacity: 1;
@@ -115,3 +115,15 @@ nav a:hover{
         right: 2rem;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .nav-btn {
+      display: none;
+    }
+  }
+  
+
+#jing-fong span {
+    font-family: cursive;
+    font-size: 40px;
+} 
