@@ -20,7 +20,7 @@
 
 .footer-section {
   width: 100%;
-  text-align: left;
+  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -33,25 +33,25 @@
 
 .footer-section-header {
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
 }
 
 .footer-section-content {
   font-size: 1rem;
   margin: 0;
-}
-
-.map-container {
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
-}
-
-iframe {
-  width: 100%;
-  height: 300px;
+  line-height: 1.5;
+  color: #ccc;
 }
 
 .footer-section-content a{
   color: white;
+  text-decoration: none;
+}
+
+.footer-section:last-child {
+  cursor: pointer;
 }
