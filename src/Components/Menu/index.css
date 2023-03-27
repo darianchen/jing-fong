@@ -1,2 +1,106 @@
+.menu-page {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 50px 10px 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  
+.menu-column {
+  max-width: 600px;
+  width: 100%;
+  padding: 10px;
+}
+
+.menu-column h2{
+  font-size: 24px;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.menu-column h2 span {
+  font-size: 18px;
+}
+
+.spicy {
+  color: red;
+}
+
+.section ul {
+  margin-top: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+li span { 
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+li span:first-child {
+  flex-basis: 95%;
+}
+
+li span:last-child {
+  text-align: right;
+  flex-basis: 5%;
+}
+
+.dotted {
+  border: 5px dotted red;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+  padding-top: 12px;
+}
+
+.dotted h2 {
+  margin-bottom: 12px;
+}
+
+#special {
+  border: solid 1px red;
+  padding: 5px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.menu-column :nth-child(4) div {
+  text-align: center;
+  color: red;
+  font-size: 18px;
+}
+
+.menu-column:nth-of-type(2) :nth-child(2) div {
+  text-align: center;
+  color: red;
+  font-size: 18px;
+}
+
+.menu-column:nth-of-type(2) :nth-child(6) div {
+  text-align: center;
+  color: red;
+  font-size: 18px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.combo {
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  li span{
+    font-size: 22px;
+  }
+}
