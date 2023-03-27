@@ -9,7 +9,7 @@
 }
 
 .menu-column {
-  max-width: 600px;
+  max-width: 610px;
   width: 100%;
   padding: 10px;
 }
@@ -31,6 +31,7 @@
 
 .section ul {
   margin-top: 10px;
+  padding: 15px;
 }
 
 li {
@@ -41,16 +42,16 @@ li {
 
 li span { 
   font-size: 15px;
-  line-height: 1.7;
+  line-height: 2;
 }
 
 li span:first-child {
-  flex-basis: 95%;
+  flex-basis: 80%;
 }
 
 li span:last-child {
   text-align: right;
-  flex-basis: 5%;
+  flex-basis: 20%;
 }
 
 .dotted {
@@ -90,6 +91,12 @@ li span:last-child {
   font-size: 18px;
 }
 
+.menu-page:nth-of-type(2) :nth-child(5) div{
+  text-align: center;
+  color: red;
+  font-size: 18px;
+}
+
 .section {
   margin-bottom: 20px;
 }
@@ -99,8 +106,36 @@ li span:last-child {
   margin-bottom: 12px;
 }
 
+#chefs-special {
+  background-color: lightblue;
+}
+
+#chefs-special h2 {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+}
+
+#chefs-special li span {
+  line-height: 2.5;
+}
+
+#chefs-special div {
+  margin-top: 5px;
+  text-align: center;
+  color: red;
+  font-size: 18px;  
+}
+
 @media screen and (min-width: 768px) {
   li span{
     font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  #chefs-special h2 {
+    font-size: 40px;
   }
 }

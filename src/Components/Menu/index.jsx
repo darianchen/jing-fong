@@ -107,7 +107,7 @@
                 <li><span>55. Shrimp Chow Fun / Chow Mei Fun</span> <span>$9.25</span></li>
                 <li><span>56. House Special Chow Fun / Chow Mei Fun</span> <span>$9.25</span></li>
                 <li><span>56. House Special Chow Fun / Chow Mei Fun</span> <span>$9.25</span></li>
-                <li className="spicy"><span>57. Singapore Chow Mei Fun</span> <span>$11.95</span></li>
+                <li className="spicy"><span>57. Singapore Chow Mei Fun 🌶️</span> <span>$11.95</span></li>
               </ul>
             </div>
             <div className="section">
@@ -144,6 +144,128 @@
                 <li><span>D 3.  Steamed Bean Curd w. Mixed Vegetables</span> <span>$9.95</span></li>
                 <li><span>D 4.  Steamed Shrimp w. Snow Peas</span> <span>$11.50</span></li>
                 <li><span>D 5.  Steamed Shrimp, Chicken & Beef w. Mixed Vegetables</span> <span>$12.75</span></li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+        <div className="menu-page">
+          <div className="menu-column">
+            <div className="section">
+              <h2>CHICKEN <span>(w. Rice)</span></h2>
+              <ul>
+                <li><span>73. Moo Goo Gai Pan</span> <span>$10.95</span></li>
+                <li><span>74. Chicken w. Snow Peas</span> <span>$10.95</span></li>
+                <li><span>75. Chicken w. Broccoli</span> <span>$10.95</span></li>
+                <li><span>76. Chicken w. Mixed Chinese Vegetables</span> <span>$10.95</span></li>
+                <li><span>77. Chicken w. Cashew Nuts</span> <span>$10.95</span></li>
+                <li><span>78. Chicken w. broccoli & Snow Peas</span> <span>$10.95</span></li>
+                <li className="spicy"><span>79. Curry Chicken w. Onion 🌶️</span> <span>$10.95</span></li>
+                <li className="spicy"><span>80. Chicken w. Szechuan Sauce 🌶️</span> <span>$10.95</span></li>
+                <li className="spicy"><span>81. Chicken w. Hunan Sauce 🌶️</span> <span>$10.95</span></li>
+                <li className="spicy"><span>82. Kung Po Chicken 🌶️</span> <span>$10.95</span></li>
+                <li className="spicy"><span>83. Chicken & Broccoli w. Garlic Sauce 🌶️</span> <span>$10.95</span></li>
+                <li className="spicy"><span>84. Chicken w. Garlic Sauce 🌶️</span> <span>$10.95</span></li>
+              </ul>
+            </div>
+            <div className="section">
+              <h2>SEAFOOD <span>(w. Rice)</span></h2>
+              <ul>
+                <li><span>85. Shrimp w. Lobster Sauce</span> <span>$12.55</span></li>
+                <li><span>86. Shrimp w. Mushroom</span> <span>$12.75</span></li>
+                <li><span>87. Shrimp w. Snow Peas</span> <span>$12.75</span></li>
+                <li><span>88. Shrimp w. Broccoli</span> <span>$12.75</span></li>
+                <li><span>89. Scallop w. Broccoli</span> <span>$16.95</span></li>
+                <li><span>90. Shrimp w. Mixed Chinese Vegetables</span> <span>$12.75</span></li>
+                <li><span>91. Shrimp w. Cashew Nuts</span> <span>$12.75</span></li>
+                <li className="spicy"><span>92. Curry Chicken w. Onion 🌶️</span> <span>$12.75</span></li>
+                <li className="spicy"><span>93. Shrimp w. Garlic Sauce 🌶️</span> <span>$12.75</span></li>
+                <li className="spicy"><span>94. Shrimp w. Szechuan Sauce 🌶️</span> <span>$12.75</span></li>
+                <li className="spicy"><span>95. Shrimp w. Hunan Sauce 🌶️</span> <span>$12.75</span></li>
+                <li className="spicy"><span>96. Shrimp w. Chili Sauce 🌶️</span> <span>$12.75</span></li>
+                <li className="spicy"><span>97. Kung Po Shrimp 🌶️</span> <span>$12.75</span></li>
+              </ul>
+            </div>
+            <div className="section">
+              <h2>EGG FOO YOUNG <span>(w. Rice)</span></h2>
+              <ul>
+                <li><span>98. &nbsp;&nbsp;Roast Pork Egg Foo Young</span> <span>$9.75</span></li>
+                <li><span>99. &nbsp;&nbsp;Shrimp Egg Foo Young</span> <span>$10.25</span></li>
+                <li><span>100. Chicken Egg Foo Young</span> <span>$9.75</span></li>
+                <li><span>101. Beef Egg Foo Young</span> <span>$10.95</span></li>
+                <li><span>102. Vegetable Egg Foo Young</span> <span>$9.25</span></li>
+                <li><span>103. Vegetable Soup</span> <span>$9.25</span></li>
+              </ul> 
+            </div>
+            <div className="section">
+              <h2>SWEET & SOUR <span>(w. Rice)</span></h2>
+              <ul>
+                <li><span>104.  Sweet & Sour Pork</span> <span>$9.95</span></li>
+                <li><span>105.  Sweet & Sour Shrimp</span> <span>$10.25</span></li>
+                <li><span>106.  Sweet & Sour Chicken</span> <span>$9.95</span></li>
+                <li><span>107.  Sweet & Sour Sum-Bo</span> <span>$10.50</span></li>
+                <li><span>108.  Lemon Chicken</span> <span>$10.50</span></li>
+              </ul> 
+            </div>
+            <div className="section">
+              <h2>MOO SHU</h2>
+              <div>Mushroom, bamboo shoot, shredded cabbage w. 4 pancakes & no rice</div>
+              <ul>
+                <li><span>109. Moo Shu Pork</span> <span>$10.25</span></li>
+                <li><span>110. Moo Shu Shrimp</span> <span>$10.50</span></li>
+                <li><span>111. Moo Shu Beef</span> <span>$10.50</span></li>
+                <li><span>112. Moo Shu Chicken</span> <span>$10.25</span></li>
+              </ul> 
+            </div>
+          </div>
+          <div className="menu-column">
+            <div className="section" id="chefs-special">
+              <h2>CHEF'S SPECIAL DELUXE</h2>
+              <div>(w. Rice)</div>
+              <ul>
+                <li><span>E 1. &nbsp;&nbsp;HAPPY FAMILY</span> <span>$14.95</span></li>
+                <span>A delicious combo of sliced pork, shrimp, beef, chicken scallop & crab meat sauteed w. vegetables in tasty brown sauce.</span>
+                <li><span>E 2. &nbsp;&nbsp;FOUR SEASONS</span> <span>$13.75</span></li>
+                <span>Jumbo shrimp, chicken, roast pork, beef w. fresh vegetables in brown sauce</span>
+                <li><span>E 3. &nbsp;&nbsp;SHRIMP & SCALLOP</span> <span>$14.75</span></li>
+                <li><span>E 4. &nbsp;&nbsp;BEEF & SCALLOP</span> <span>$14.75</span></li>
+                <li><span>E 5. &nbsp;&nbsp;SEAFOOD DELIGHT</span> <span>$14.75</span></li>
+                <span>Scallop, jumbo shrimp & crab meat sauteed, assorted vegetables</span>
+                <li><span>E 6. &nbsp;&nbsp;SEVEN STARS AROUND THE MOON</span> <span>$16.75</span></li>
+                <span>Shrimp, chicken, beef, roast pork & fried shrimp w. mixed vegetables</span>
+                <li><span>E 7. &nbsp;&nbsp;CHICKEN & SHRIMP W. MIXED CHINESE VEG</span> <span>$12.95</span></li>
+                <li><span>E 8. &nbsp;SHRIMP W. MAYONNAISE SAUCE</span> <span>$13.95</span></li>
+                <li><span>E 9. &nbsp;&nbsp;CRISPY DUCK</span> <span>$15.95</span></li>
+                <li><span>E 10. WOR SHU DUCK</span> <span>$13.95</span></li>
+                <li><span>E 11. SESAME CHICKEN</span> <span>$13.50</span></li>
+                <li><span>E 12. SESAME BEEF</span> <span>$14.95</span></li>
+                <li className="spicy"><span>E 13. GENERAL TSO'S CHICKEN 🌶️</span> <span>$13.50</span></li>
+                <span>Chunks of boneless chicken sauteed w. lots of broccoli in brown sauce</span>
+                <li className="spicy"><span>E 14. ORANGE FLAVOR CHICKEN 🌶️</span> <span>$13.50</span></li>
+                <li className="spicy"><span>E 15. GENERAL TSO'S TOFU 🌶️</span> <span>$11.95</span></li>
+                <li className="spicy"><span>E 16. TRIPLE DELIGHT 🌶️</span> <span>$13.50</span></li>
+                <span>Jumbo shrimp, chicken & beef w. hot garlic sauce</span>
+                <li className="spicy"><span>E 17. CRISPY CHICKEN 🌶️</span> <span>$13.50</span></li>
+                <li className="spicy"><span>E 18. ORANGE FLAVOR BEEF 🌶️</span> <span>$14.95</span></li>
+                <li className="spicy"><span>E 19. DRAGON & PHOENIX 🌶️</span> <span>$15.95</span></li>
+                <span>Spicy chicken & shrimp w. hot spicy sauce</span>
+                <li className="spicy"><span>E 20. MA PO TOFU 🌶️</span> <span>$11.50</span></li>
+                <li className="spicy"><span>E 21. BEEF W. SCALLION 🌶️</span> <span>$13.95</span></li>
+                <li className="spicy"><span>E 22. HOT & SPICY BEEF OR CHICKEN 🌶️</span> <span>$12.95</span></li>
+                <li className="spicy"><span>E 23. HUNAN DOUBLE DELIGHT 🌶️</span> <span>$15.95</span></li>
+                <span>Shrimp in chili sauce, beef w. Hunan sauce</span>
+                <li className="spicy"><span>E 24. SZECHUAN TRIPLE DELIGHT 🌶️</span> <span>$14.95</span></li>
+                <span>Crab meat, jumbo shrimp, scallop w. fresh vegetables</span>
+              </ul>
+            </div>
+            <div className="section">
+              <h2>VEGETABLES<span> (w. Rice)</span></h2>
+              <ul>
+                <li><span>113. Pork w. Mixed Chinese Vegetables</span> <span>$9.95</span></li>
+                <li className="spicy"><span>114. Mixed vegetables w. Garlic Sauce 🌶️</span> <span>$9.95</span></li>
+                <li className="spicy"><span>115. Broccoli w. Garlic Sauce 🌶️</span> <span>$9.95</span></li>
+                <li className="spicy"><span>116. Fried Bean Curd w. Garlic Sauce 🌶️</span> <span>$9.95</span></li>
+                <li className="spicy"><span>117. Fried Bean Curn w. Szechuan Sauce 🌶️</span> <span>$9.95</span></li>
+                <li><span>118. Fried String Bean</span> <span>$9.95</span></li>
               </ul> 
             </div>
           </div>
