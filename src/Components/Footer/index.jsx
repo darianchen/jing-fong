@@ -27,11 +27,13 @@ const Footer = () => {
             <div className="footer-section">
                 <h3 className="footer-section-header">Hours</h3>
                 <p className="footer-section-content">
-                    Mon-Thu: 11am - 10pm
+                    Monday: Closed
                     <br />
-                    Fri-Sat: 11am - 11pm
+                    Tue-Thu: 11am - 9pm
                     <br />
-                    Sun: 11am - 10pm
+                    Fri-Sat: 11am - 10pm
+                    <br />
+                    Sun: 12pm - 9pm
                 </p>
             </div>
             <div className="footer-section" onClick={scrollToTop}>
