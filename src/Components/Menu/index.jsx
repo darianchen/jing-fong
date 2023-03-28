@@ -3,7 +3,9 @@
   const Menu = () => {
 
     return (
+      <>
       <div className="menu">
+        <h1>Jing Fong Menu</h1>
         <div className="menu-page">
           <div className="menu-column">
             <div className="section">
@@ -12,8 +14,8 @@
                 <li><span>1.  &nbsp;&nbsp;Roast Pork Egg Roll (2)</span> <span>$4.25</span></li>
                 <li><span>2.  &nbsp;&nbsp;Shrimp Egg Roll (2)</span> <span>$4.50</span></li>
                 <li><span>3.  &nbsp;&nbsp;Spring Roll (2)</span> <span>$3.95</span></li>
-                <li><span>4.  &nbsp;&nbsp;Bar-B-Q Spare ribs (L) </span> <span>$15.95</span></li>
-                <li><span>5.  &nbsp;&nbsp;Boneless Spare Ribs (L)</span> <span>$13.95</span></li>
+                <li><span>4.  &nbsp;&nbsp;Bar-B-Q Spare Ribs</span> <span>$15.95</span></li>
+                <li><span>5.  &nbsp;&nbsp;Boneless Spare Ribs</span> <span>$13.95</span></li>
                 <li><span>6.  &nbsp;&nbsp;Chicken Fingers</span> <span>$8.25</span></li>
                 <li><span>7.  &nbsp;&nbsp;Terriyaki Chicken (6)</span> <span>$9.25</span></li>
                 <li><span>8.  &nbsp;&nbsp;Teriyaki Beef (6)</span> <span>$9.25</span></li>
@@ -86,8 +88,7 @@
               </ul>
             </div>
             <div className="section">
-              <h2>LO MEIN</h2>
-              <div>(Spaghetti)</div>
+              <h2>LO MEIN <span>(Spaghetti)</span></h2>
               <ul>
                 <li><span>45. Roast Pork Lo Mein</span> <span>$6.75&nbsp;&nbsp;&nbsp;$9.25</span></li>
                 <li><span>46. Chicken Lo Mein</span> <span>$6.50&nbsp;&nbsp;&nbsp;$8.25</span></li>
@@ -223,15 +224,15 @@
               <div>(w. Rice)</div>
               <ul>
                 <li><span>E 1. &nbsp;&nbsp;HAPPY FAMILY</span> <span>$14.95</span></li>
-                <span>A delicious combo of sliced pork, shrimp, beef, chicken scallop & crab meat sauteed w. vegetables in tasty brown sauce.</span>
+                <span className="ingredients">A delicious combo of sliced pork, shrimp, beef, chicken scallop & crab meat sauteed w. vegetables in tasty brown sauce.</span>
                 <li><span>E 2. &nbsp;&nbsp;FOUR SEASONS</span> <span>$13.75</span></li>
-                <span>Jumbo shrimp, chicken, roast pork, beef w. fresh vegetables in brown sauce</span>
+                <span className="ingredients">Jumbo shrimp, chicken, roast pork, beef w. fresh vegetables in brown sauce</span>
                 <li><span>E 3. &nbsp;&nbsp;SHRIMP & SCALLOP</span> <span>$14.75</span></li>
                 <li><span>E 4. &nbsp;&nbsp;BEEF & SCALLOP</span> <span>$14.75</span></li>
                 <li><span>E 5. &nbsp;&nbsp;SEAFOOD DELIGHT</span> <span>$14.75</span></li>
-                <span>Scallop, jumbo shrimp & crab meat sauteed, assorted vegetables</span>
+                <span className="ingredients">Scallop, jumbo shrimp & crab meat sauteed, assorted vegetables</span>
                 <li><span>E 6. &nbsp;&nbsp;SEVEN STARS AROUND THE MOON</span> <span>$16.75</span></li>
-                <span>Shrimp, chicken, beef, roast pork & fried shrimp w. mixed vegetables</span>
+                <span className="ingredients">Shrimp, chicken, beef, roast pork & fried shrimp w. mixed vegetables</span>
                 <li><span>E 7. &nbsp;&nbsp;CHICKEN & SHRIMP W. MIXED CHINESE VEG</span> <span>$12.95</span></li>
                 <li><span>E 8. &nbsp;SHRIMP W. MAYONNAISE SAUCE</span> <span>$13.95</span></li>
                 <li><span>E 9. &nbsp;&nbsp;CRISPY DUCK</span> <span>$15.95</span></li>
@@ -239,25 +240,25 @@
                 <li><span>E 11. SESAME CHICKEN</span> <span>$13.50</span></li>
                 <li><span>E 12. SESAME BEEF</span> <span>$14.95</span></li>
                 <li className="spicy"><span>E 13. GENERAL TSO'S CHICKEN 🌶️</span> <span>$13.50</span></li>
-                <span>Chunks of boneless chicken sauteed w. lots of broccoli in brown sauce</span>
+                <span className="ingredients">Chunks of boneless chicken sauteed w. lots of broccoli in brown sauce</span>
                 <li className="spicy"><span>E 14. ORANGE FLAVOR CHICKEN 🌶️</span> <span>$13.50</span></li>
                 <li className="spicy"><span>E 15. GENERAL TSO'S TOFU 🌶️</span> <span>$11.95</span></li>
                 <li className="spicy"><span>E 16. TRIPLE DELIGHT 🌶️</span> <span>$13.50</span></li>
-                <span>Jumbo shrimp, chicken & beef w. hot garlic sauce</span>
+                <span className="ingredients">Jumbo shrimp, chicken & beef w. hot garlic sauce</span>
                 <li className="spicy"><span>E 17. CRISPY CHICKEN 🌶️</span> <span>$13.50</span></li>
                 <li className="spicy"><span>E 18. ORANGE FLAVOR BEEF 🌶️</span> <span>$14.95</span></li>
-                <li className="spicy"><span>E 19. DRAGON & PHOENIX 🌶️</span> <span>$15.95</span></li>
-                <span>Spicy chicken & shrimp w. hot spicy sauce</span>
+                <li className="spicy" ><span>E 19. DRAGON & PHOENIX 🌶️</span> <span>$15.95</span></li>
+                <span className="ingredients">Spicy chicken & shrimp w. hot spicy sauce</span>
                 <li className="spicy"><span>E 20. MA PO TOFU 🌶️</span> <span>$11.50</span></li>
                 <li className="spicy"><span>E 21. BEEF W. SCALLION 🌶️</span> <span>$13.95</span></li>
                 <li className="spicy"><span>E 22. HOT & SPICY BEEF OR CHICKEN 🌶️</span> <span>$12.95</span></li>
                 <li className="spicy"><span>E 23. HUNAN DOUBLE DELIGHT 🌶️</span> <span>$15.95</span></li>
-                <span>Shrimp in chili sauce, beef w. Hunan sauce</span>
+                <span className="ingredients">Shrimp in chili sauce, beef w. Hunan sauce</span>
                 <li className="spicy"><span>E 24. SZECHUAN TRIPLE DELIGHT 🌶️</span> <span>$14.95</span></li>
-                <span>Crab meat, jumbo shrimp, scallop w. fresh vegetables</span>
+                <span className="ingredients">Crab meat, jumbo shrimp, scallop w. fresh vegetables</span>
               </ul>
             </div>
-            <div className="section">
+            <div className="section" id="vegetables">
               <h2>VEGETABLES<span> (w. Rice)</span></h2>
               <ul>
                 <li><span>113. Pork w. Mixed Chinese Vegetables</span> <span>$9.95</span></li>
@@ -270,7 +271,63 @@
             </div>
           </div>
         </div>
+        <div className="menu-page">
+          <div className="menu-column">
+            <div className="section" id="">
+              <h2 id="special-combo">SPECIAL COMBINATION PLATTER</h2>
+              <ul>
+                <li><span>C 1. &nbsp;&nbsp;Chicken Chow Mein</span> <span>$8.95</span></li>
+                <li><span>C 2. &nbsp;&nbsp;Shrimp Chow Mein</span> <span>$8.95</span></li>
+                <li><span>C 3. &nbsp;&nbsp;Chicken or Pork Chop Suey</span> <span>$8.95</span></li>
+                <li><span>C 4. &nbsp;&nbsp;Chicken w. Broccoli</span> <span>$9.25</span></li>
+                <li><span>C 5. &nbsp;&nbsp;Beef w. Broccoli</span> <span>$9.75</span></li>
+                <li><span>C 6. &nbsp;&nbsp;Shrimp w. Broccoli</span> <span>$9.75</span></li>
+                <li><span>C 7. &nbsp;&nbsp;Pork Egg Foo Young</span> <span>$9.25</span></li>
+                <li><span>C 8. &nbsp;&nbsp;Pepper Steak</span> <span>$9.75</span></li>
+                <li><span>C 9. &nbsp;&nbsp;Pork w. Chinese Vegetables</span> <span>$9.25</span></li>
+                <li><span>C 10. Moo Goo Gai Pan</span> <span>$9.25</span></li>
+                <li><span>C 11. Beef w. Mixed Vegetables</span> <span>$9.75</span></li>
+                <li><span>C 12. Roast Pork or Chicken Lo Mein</span> <span>$9.25</span></li>
+                <li><span>C 13. Shrimp w. Lobster Sauce</span> <span>$9.75</span></li>
+                <li><span>C 14. Shrimp or Beef w. Snow Peas</span> <span>$9.75</span></li>
+                <li><span>C 15. Sweet & Sour Pork or Chicken</span> <span>$9.25</span></li>
+                <li><span>C 16. Shrimp w. Mixed Chinese Vegetable</span> <span>$9.75</span></li>
+                <li><span>C 17. Boneless Spare Ribs</span> <span>$10.25</span></li>
+                <li><span>C 18. Chicken w. Cashew Nuts</span> <span>$9.25</span></li>
+                <li><span>C 19. Chicken w. Mixed Chinese Vegetables</span> <span>$9.25</span></li>
+                <li><span>C 20. Sesame Chicken</span> <span>$11.50</span></li>
+                <li className="spicy"><span>C 21. Mixed Vegetables w. Garlic Sauce 🌶️</span> <span>$8.95</span></li>
+                <li className="spicy"><span>C 22. Sliced Chicken w. Garlic Sauce 🌶️</span> <span>$9.25</span></li>
+                <li className="spicy"><span>C 23. Hot and Spicy Beef or Chicken 🌶️</span> <span>$9.75</span></li>
+                <li className="spicy"><span>C 24. Chicken w. Hunan Sauce 🌶️</span> <span>$9.25</span></li>
+                <li className="spicy"><span>C 25. General Tso's Chicken 🌶️</span> <span>$9.75</span></li>
+                <li className="spicy"><span>C 26. Chicken & Broccoli w. Garlic Sauce 🌶️</span> <span>$9.25</span></li>
+                <li className="spicy"><span>C 27. Beef w. Garlic Sauce 🌶️</span> <span>$9.75</span></li>
+                <li className="spicy"><span>C 28. Orange Flavor Chicken 🌶️</span> <span>$9.25</span></li>
+              </ul>
+            </div>
+          </div>
+          <div className="menu-column">
+            <div className="section" id="combo-dinner">
+              <h2>Combination Dinner</h2>
+              <div>(Served w. Pork Fried Rice or Steamed Rice)</div>
+              <ul>
+                <li><span>B 1.</span><span>Teriyaki Chicken Teriyaki Beef and Chicken Fingers</span> <span>$10.25</span></li>
+                <li><span>B 2.</span><span>Chicken Wings, Boneless Spare Ribs and Crab Rangoon</span><span>$10.25</span></li>
+                <li><span>B 3.</span><span>Teriyaki Beef, Chicken Wings and Chicken Fingers</span><span>$10.25</span></li>
+                <li><span>B 4.</span><span>Boneless Spare Ribs, Teriyaki Chicken and Crab Rangoon</span><span>$10.25</span></li>
+                <li><span>B 5.</span><span>Crab Rangoon, Shrimp Rings and Hot Dog w/ Bacon</span><span>$10.25</span></li>
+                <li><span>B 6.</span><span>Boneless Spare Ribs, Teriyaki Chicken and Fried Shrimp</span><span>$10.25</span></li>
+                <li><span>B 7.</span><span>Egg Roll, Teriyaki Beef and Chicken Fingers</span><span>$10.25</span></li>
+                <li><span>B 8.</span><span>Chicken w. Mixed Vegetables, Chicken Finger and Hot Dog w. Bacon</span><span>$10.25</span></li>
+                <li><span>B 9.</span><span>Beef w. Mixed Vegetables, Spring Roll and Crab Rangoon</span><span>$10.25</span></li>
+                <li><span>B 10.</span><span>Pork Lo Mein, Chicken Fingers and Crab Rangoon</span><span>$10.25</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
+      </>
     );
   };
 

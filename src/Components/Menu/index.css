@@ -1,11 +1,20 @@
+.menu {
+  background-color: #fff;
+}
+
+.menu h1 {
+  text-align: center;
+  font-size: 50px;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .menu-page {
   display: flex;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
-  background-color: white;
   padding: 50px 10px 10px 0px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu-column {
@@ -79,19 +88,10 @@ li span:last-child {
   font-size: 18px;
 }
 
-.menu-column:nth-of-type(2) :nth-child(2) div {
-  text-align: center;
-  color: red;
-  font-size: 18px;
-}
-
-.menu-column:nth-of-type(2) :nth-child(6) div {
-  text-align: center;
-  color: red;
-  font-size: 18px;
-}
-
-.menu-page:nth-of-type(2) :nth-child(5) div{
+.menu-column:nth-of-type(2) :nth-child(2) div,
+.menu-column:nth-of-type(2) :nth-child(6) div,
+.menu-page:nth-of-type(2) :nth-child(5) div,
+#combo-dinner div {
   text-align: center;
   color: red;
   font-size: 18px;
@@ -106,8 +106,13 @@ li span:last-child {
   margin-bottom: 12px;
 }
 
+.ingredients{
+  color: rgb(13, 117, 13);
+  font-size: 16px;
+}
+
 #chefs-special {
-  background-color: lightblue;
+  background-color: rgb(249, 234, 236);
 }
 
 #chefs-special h2 {
@@ -126,6 +131,49 @@ li span:last-child {
   text-align: center;
   color: red;
   font-size: 18px;  
+}
+
+#special-combo {
+  font-size: 40px;
+}
+
+#combo-dinner {padding: 10px;
+  border: solid 1px red;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+#combo-dinner h2 {
+  font-size: 40px;
+}
+
+#combo-dinner li span {
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+#combo-dinner li span:first-child {
+  flex-basis: 10%;
+}
+
+#combo-dinner li span:nth-child(2) {
+  flex-basis: 70%;
+} */
+
+ #combo-dinner li span:last-child {
+  flex-basis: 5%;
+}
+
+li span:last-child {
+  text-align: right;
+  flex-basis: 20%;
+}
+
+@media screen and (max-width: 425px) {
+  #combo-dinner li span:first-child {
+    flex-basis: 30%;
+  }  
 }
 
 @media screen and (min-width: 768px) {
