@@ -43,22 +43,10 @@
 .map-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 500px;
     margin-bottom: 50px;
 }
-  
 
-  @media screen and (max-width: 768px) {
-    .map-container iframe {
-      width: 500px;
-      height: 300px;
-    }
-  }
-  
-  @media screen and (min-width: 769px) {
-    .map-container iframe {
-      width: 700px;
-      height: 500px;
-    }
-  }
+.map-container iframe {
+    height: 500px;
+    width: 75%;
+}
