@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <NavBar />
-    <Router>
+    <Router basename="/jing-fong">
       <Routes>
         <Route path="/" element={<SplashPage />} />
       </Routes>
