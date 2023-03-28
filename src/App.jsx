@@ -10,22 +10,16 @@ import Gallery from './Components/Gallery';
 function App() {
   return (
     <>
-    <NavBar />
-    <Router basename="/jing-fong">
-      <Routes>
-        <Route path="/" element={<SplashPage />} />
-      </Routes>
-      <Routes>
-        <Route path="/menu" element={<Menu />} />
-      </Routes>
-      <Routes>
-        <Route path="/feedback" element={<Feedback />} />
-      </Routes>
-      <Routes>
-        <Route path="/gallery" element={<Gallery />} />
-      </Routes>
-    </Router>
-    <Footer />
+      <NavBar />
+      <Router basename="/jing-fong">
+        <Routes>
+          <Route path="/" element={<SplashPage />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/feedback" element={<Feedback />} />
+          <Route path="/gallery" element={<Gallery />} />
+        </Routes>
+      </Router>
+      <Footer />
     </>
   );
 }

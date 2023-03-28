@@ -16,9 +16,9 @@ const NavBar = () => {
             </a>
             <nav ref={navRef}>
                 <a href="/" className='link'>Home</a>
-                <a href="/menu">Menu</a>
-                <a href="/gallery">Gallery</a>
-                <a href="/feedback">Feedback</a>
+                <a href="/jing-fong/menu">Menu</a>
+                <a href="/jing-fong/gallery">Gallery</a>
+                <a href="/jing-fong/feedback">Feedback</a>
                 <button className='nav-btn nav-close-btn' onClick={toggleNavBar}>
                     <FaTimes/>
                 </button>
