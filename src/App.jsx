@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import SplashPage from './Components/SplashPage';
 import Menu from './Components/Menu';
@@ -11,14 +11,14 @@ function App() {
   return (
     <>
       <NavBar />
-      <Router basename="/jing-fong">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<SplashPage />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
-      </Router>
+      </HashRouter>
       <Footer />
     </>
   );
