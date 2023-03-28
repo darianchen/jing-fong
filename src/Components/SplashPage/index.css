@@ -18,7 +18,7 @@
 }
 
 .restaurant-description {
-    max-width: 90%;
+    max-width: 80%;
     text-align: center;
 }
 
@@ -30,7 +30,15 @@
 .restaurant-description p {
     font-size: 16px;
     line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: "Helvetica Neue", sans-serif;
 }
+
+.restaurant-description h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 .iframe-container {
     display: flex;
@@ -40,7 +48,7 @@
     margin-bottom: 50px;
 }
   
-  .iframe-container iframe {
+.iframe-container iframe {
     width: 800px;
     height: 100%;
     border: 0;

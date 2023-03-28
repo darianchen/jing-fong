@@ -315,8 +315,8 @@
           </div>
           <div className="menu-page">
             <div className="menu-column">
-              <div className="section">
-                <h2 id="special-combo">SPECIAL COMBINATION PLATTER</h2>
+              <div className="section" id="special-combo">
+                <h2>SPECIAL COMBINATION PLATTER</h2>
                 <ul>
                   <li><span>C 1. &nbsp;&nbsp;Chicken Chow Mein</span> <span>$8.95</span></li>
                   <li><span>C 2. &nbsp;&nbsp;Shrimp Chow Mein</span> <span>$8.95</span></li>

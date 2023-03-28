@@ -13,7 +13,10 @@ const SplashPage = () => {
                 </div>
                 <div className="restaurant-description">
                     <h2>About Jing Fong</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id odio id orci fringilla fringilla. Nullam dictum elit in mi laoreet, sed bibendum magna iaculis. Duis id risus ac lacus semper fringilla. In suscipit sapien sit amet lobortis convallis. Suspendisse bibendum nulla vitae rutrum posuere.</p>
+                    <p>Jing Fong is a family-owned restaurant that has been serving mouth-watering traditional and American-style Chinese cuisine to the beautiful community of Littleton, New Hampshire since 1992. Our restaurant is conveniently located in the heart of the town, allowing for easy access to our cozy and welcoming environment.</p>
+                    <p>At Jing Fong, we take pride in every order we receive. Our head chef carefully incorporates the freshest ingredients into each dish we send out. We offer classics like General Tso's chicken and beef with broccoli, and even healthy options such as steamed chicken and beef with mixed vegetables. Young or old, there's something for everyone here!</p>
+                    <p>If you have any suggestions regarding our food or service, please visit our customer feedback page and leave us your suggestion.</p>
+                    <p>Come and visit Jing Fong today to taste the best Chinese cuisine in Littleton!</p>
                 </div>
             </div>
             <div className="iframe-container">
