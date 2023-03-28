@@ -5,6 +5,7 @@ import Menu from './Components/Menu';
 import './App.css';
 import Footer from './Components/Footer';
 import Feedback from './Components/Feedback';
+import Gallery from './Components/Gallery';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/feedback" element={<Feedback />} />
+      </Routes>
+      <Routes>
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </Router>
     <Footer />
