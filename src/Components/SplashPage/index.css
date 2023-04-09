@@ -50,3 +50,9 @@
     height: 500px;
     width: 75%;
 }
+
+@media screen and (max-width: 768px) {
+    .map-container iframe {
+      width: 90%;
+    }
+}

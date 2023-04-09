@@ -22,6 +22,7 @@ const Gallery = () => {
       {dishes.map((dish, index) => (
         <div key={index} className="gallery-item">
           <img src={dish.image} alt={dish.name} />
+          <div className="image-overlay">{dish.name}</div>
         </div>
       ))}
     </div>
