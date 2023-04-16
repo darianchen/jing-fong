@@ -12,11 +12,10 @@
                         <img src={restaurantImage} alt="Restaurant Image"/>
                     </div>
                     <div className="restaurant-description">
-                        <h2>About Jing Fong</h2>
+                        <h2>Our History</h2>
                         <p>Jing Fong is a family-owned restaurant that has been serving mouth-watering traditional and American-style Chinese cuisine to the beautiful community of Littleton, New Hampshire since 1992. Our restaurant is conveniently located in the heart of the town, allowing for easy access to our cozy and welcoming environment.</p>
-                        <p>At Jing Fong, we take pride in every order we receive. Our head chef carefully incorporates the freshest ingredients into each dish we send out. We offer classics like General Tso's chicken and beef with broccoli, and even healthy options such as steamed chicken and beef with mixed vegetables. Young or old, there's something for everyone here!</p>
-                        <p>If you have any suggestions regarding our food or service, please visit our customer feedback page and leave us your suggestion.</p>
-                        <p>Come and visit Jing Fong today to taste the best Chinese cuisine in the world!</p>
+                        <p>At Jing Fong, we take pride in every order we receive. Our head chef carefully incorporates the freshest ingredients into each dish we send out. We offer classics like General Tso's Chicken and Beef with Broccoli, and even healthy options such as steamed chicken or beef with mixed vegetables. Young or old, there's something for everyone here!</p>
+                        <p>Come and visit Jing Fong today to taste the best Chinese cuisine in Littleton</p>
                     </div>
                 </div>
                 <div className="map-container">
