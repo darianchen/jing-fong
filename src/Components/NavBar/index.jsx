@@ -15,12 +15,12 @@ const NavBar = () => {
 
     return(
         <header id='main-header'>
-            <a href='/jing-fong/#/'>
+            <a href='/'>
             <h3 id="jing-fong">Jing Fong <span>金豐</span></h3>
             </a>
             <nav ref={navRef}>
-                <a href="/jing-fong/#/" className='link' onClick={closeNavBar}>Home</a>
-                <a href="/jing-fong/#/menu" onClick={closeNavBar}>Menu</a>
+                <a href="/" className='link' onClick={closeNavBar}>Home</a>
+                <a href="/menu" onClick={closeNavBar}>Menu</a>
                 {/* <a href="/jing-fong/#/gallery" onClick={closeNavBar}>Gallery</a>
                 <a href="/jing-fong/#/feedback" onClick={closeNavBar}>Feedback</a> */}
                 <button className='nav-btn nav-close-btn' onClick={toggleNavBar}>
