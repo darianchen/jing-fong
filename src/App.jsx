@@ -15,8 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<SplashPage />} />
           <Route path="/menu" element={<Menu />} />
-          <Route path="/feedback" element={<Feedback />} />
-          <Route path="/gallery" element={<Gallery />} />
+          {/* <Route path="/feedback" element={<Feedback />} />
+          <Route path="/gallery" element={<Gallery />} /> */}
         </Routes>
       </HashRouter>
       <Footer />

@@ -21,8 +21,8 @@ const NavBar = () => {
             <nav ref={navRef}>
                 <a href="/jing-fong/#/" className='link' onClick={closeNavBar}>Home</a>
                 <a href="/jing-fong/#/menu" onClick={closeNavBar}>Menu</a>
-                <a href="/jing-fong/#/gallery" onClick={closeNavBar}>Gallery</a>
-                <a href="/jing-fong/#/feedback" onClick={closeNavBar}>Feedback</a>
+                {/* <a href="/jing-fong/#/gallery" onClick={closeNavBar}>Gallery</a>
+                <a href="/jing-fong/#/feedback" onClick={closeNavBar}>Feedback</a> */}
                 <button className='nav-btn nav-close-btn' onClick={toggleNavBar}>
                     <FaTimes/>
                 </button>

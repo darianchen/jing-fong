@@ -1,4 +1,4 @@
-    import Slider from "../Slider";
+    // import Slider from "../Slider";
     import './index.css';
     import restaurantImage from "../../assets/Images/restaurant-image.jpeg";
 
@@ -6,15 +6,14 @@
 
         return(
             <div>
-                <Slider/>
+                {/* <Slider/> */}
                 <div className="restaurant-info">
                     <div className="restaurant-image">
                         <img src={restaurantImage} alt="Restaurant Image"/>
                     </div>
                     <div className="restaurant-description">
-                        <h2>Our History</h2>
-                        <p>Jing Fong is a family-owned restaurant that has been serving mouth-watering traditional and American-style Chinese cuisine to the beautiful community of Littleton, New Hampshire since 1992. Our restaurant is conveniently located in the heart of the town, allowing for easy access to our cozy and welcoming environment.</p>
-                        <p>At Jing Fong, we take pride in every order we receive. Our head chef carefully incorporates the freshest ingredients into each dish we send out. We offer classics like General Tso's Chicken and Beef with Broccoli, and even healthy options such as steamed chicken or beef with mixed vegetables.</p>
+                        <p>Jing Fong is a family-owned restaurant that has been serving traditional and American-style Chinese cuisine to the beautiful community of Littleton, New Hampshire since 1992. Our restaurant is conveniently located in the heart of the town, allowing for easy access to our cozy and welcoming environment.</p>
+                        <p>At Jing Fong, we take pride in every order we receive. Our head chef carefully incorporates the freshest ingredients into each dish we send out. We offer classics like General Tso's Chicken and Beef with Broccoli, and even healthy options such as Steamed Chicken or Beef with Mixed Vegetables.</p>
                         <p>Come and visit Jing Fong today to taste the best Chinese cuisine in Littleton!</p>
                     </div>
                 </div>
