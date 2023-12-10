@@ -34,6 +34,12 @@
   padding: 10px;
 }
 
+.lunch {
+  max-width: 1220px;
+  width: 100%;
+  padding: 10px;
+}
+
 .menu-column h2{
   font-size: 24px;
   text-align: center;
@@ -102,6 +108,7 @@ li span:last-child {
 .menu-column:nth-of-type(2) :nth-child(2) div,
 .menu-column:nth-of-type(2) :nth-child(6) div,
 .menu-page:nth-of-type(2) :nth-child(5) div,
+#special-combo div,
 #combo-dinner div {
   text-align: center;
   color: red;
