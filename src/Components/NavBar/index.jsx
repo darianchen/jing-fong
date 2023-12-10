@@ -20,7 +20,7 @@ const NavBar = () => {
             </a>
             <nav ref={navRef}>
                 <a href="/" className='link' onClick={closeNavBar}>Home</a>
-                <a href="/menu" onClick={closeNavBar}>Menu</a>
+                <a href="menu" onClick={closeNavBar}>Menu</a>
                 {/* <a href="/jing-fong/#/gallery" onClick={closeNavBar}>Gallery</a>
                 <a href="/jing-fong/#/feedback" onClick={closeNavBar}>Feedback</a> */}
                 <button className='nav-btn nav-close-btn' onClick={toggleNavBar}>
