@@ -1,4 +1,5 @@
   import "./index.css";
+  import MenuPDF from "../../assets/Menu/Jing_Fong_Menu.pdf";
 
   const Menu = () => {
     const sections = [
@@ -34,7 +35,8 @@
     return (
       <div id="page">
         <h1 id="jing-fong-menu">Jing Fong Menu</h1>
-        {/* <p><a href="/path/to/menu.pdf" download>Download PDF of Menu</a></p> */}
+        <h2 id="tax">Plus NH Meal Tax 8.5%</h2>
+        <p><a href={MenuPDF} download>Download PDF of Menu</a></p>
         <div className="button-container">
           <ul className="buttons">
             {sections.map(section => (

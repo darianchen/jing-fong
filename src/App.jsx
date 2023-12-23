@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<SplashPage />} />
         <Route path="/menu" element={<Menu />} />
+        <Route element={() => <Redirect to="/" />} />
       </Routes>
     </HashRouter>
     <Footer />
