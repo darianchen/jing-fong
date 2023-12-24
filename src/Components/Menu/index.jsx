@@ -73,7 +73,7 @@
                   <li><span>16. Chicken Wings w. Pork Fried Rice</span> <span>$11.25</span></li>
                   <li className="spicy"><span>17. Pan Fried Wonton Szechuan Style (10) 🌶️</span> <span>$8.50</span></li>
                   <li className="spicy"><span>18. Cold Noodle w. Sesame Sauce 🌶️</span> <span>$8.25</span></li>
-                  <li><span>19. Scallion Pancakes</span> <span>$8.75</span></li>
+                  <li><span>19. Scallion Pancakes</span> <span>$6.75</span></li>
                   <li><span>20. Pu Pu Platter (For 2)</span> <span>$20.25</span></li>
                   <div>Teriyaki beef, spare ribs, shrimp rings, egg roll, crab rangoon, chicken finger & chicken wings</div>
                 </ul>
