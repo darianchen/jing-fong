@@ -1,4 +1,4 @@
-    // import Slider from "../Slider";
+    import Slider from "../Slider";
     import './index.css';
     import restaurantImage from "../../assets/Images/restaurant-image.jpeg";
 
@@ -6,7 +6,7 @@
 
         return(
             <div>
-                {/* <Slider/> */}
+                <Slider/>
                 <div className="restaurant-info">
                     <div className="restaurant-image">
                         <img src={restaurantImage} alt="Restaurant Image"/>
