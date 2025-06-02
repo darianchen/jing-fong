@@ -58,8 +58,8 @@
                   <li><span>1.  &nbsp;&nbsp;Roast Pork Egg Roll (2)</span> <span>$4.95</span></li>
                   <li><span>2.  &nbsp;&nbsp;Shrimp Egg Roll (2)</span> <span>$5.25</span></li>
                   <li><span>3.  &nbsp;&nbsp;Spring Roll (2)</span> <span>$4.75</span></li>
-                  <li><span>4.  &nbsp;&nbsp;Bar-B-Q Spare Ribs</span> <span>(L) $17.95</span></li>
-                  <li><span>5.  &nbsp;&nbsp;Boneless Spare Ribs</span> <span>(L) $15.95</span></li>
+                  <li><span>4.  &nbsp;&nbsp;Bar-B-Q Spare Ribs</span> <span>$17.95</span></li>
+                  <li><span>5.  &nbsp;&nbsp;Boneless Spare Ribs</span> <span>$15.95</span></li>
                   <li><span>6.  &nbsp;&nbsp;Chicken Fingers</span> <span>$8.95</span></li>
                   <li><span>7.  &nbsp;&nbsp;Terriyaki Chicken (6)</span> <span>$9.95</span></li>
                   <li><span>8.  &nbsp;&nbsp;Teriyaki Beef (6)</span> <span>$9.95</span></li>
@@ -222,7 +222,7 @@
                   <li><span>89. Scallop w. Broccoli</span> <span>$17.95</span></li>
                   <li><span>90. Shrimp w. Mixed Chinese Vegetables</span> <span>$13.75</span></li>
                   <li><span>91. Shrimp w. Cashew Nuts</span> <span>$13.75</span></li>
-                  <li className="spicy"><span>92. Curry Chicken w. Onion 🌶️</span> <span>$13.75</span></li>
+                  <li className="spicy"><span>92. Curry Shrimp w. Onion 🌶️</span> <span>$13.75</span></li>
                   <li className="spicy"><span>93. Shrimp w. Garlic Sauce 🌶️</span> <span>$13.75</span></li>
                   <li className="spicy"><span>94. Shrimp w. Szechuan Sauce 🌶️</span> <span>$13.75</span></li>
                   <li className="spicy"><span>95. Shrimp w. Hunan Sauce 🌶️</span> <span>$13.75</span></li>
@@ -238,7 +238,7 @@
                   <li><span>100. Chicken Egg Foo Young</span> <span>$11.75</span></li>
                   <li><span>101. Beef Egg Foo Young</span> <span>$12.25</span></li>
                   <li><span>102. Vegetable Egg Foo Young</span> <span>$11.25</span></li>
-                  <li><span>103. Vegetable Soup</span> <span>$11.25</span></li>
+                  <li><span>103. Mushroom Egg Foo Young</span> <span>$11.25</span></li>
                 </ul> 
               </div>
               <div className="section" id="sweet-sour">
