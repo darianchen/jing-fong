@@ -27,7 +27,7 @@ const Footer = () => {
             <div className="footer-section">
                 <h3 className="footer-section-header">Hours</h3>
                 <p className="footer-section-content">
-                    Monday: Closed
+                    Monday: 4am - 9pm
                     <br />
                     Tue-Thu: 11am - 9pm
                     <br />

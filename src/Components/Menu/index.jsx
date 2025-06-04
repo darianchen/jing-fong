@@ -367,7 +367,7 @@
                   <li><span>B 7.</span><span>Egg Roll, Teriyaki Beef and Chicken Fingers</span><span>$11.95</span></li>
                   <li><span>B 8.</span><span>Chicken w. Mixed Vegetables, Chicken Finger and Hot Dog w. Bacon</span><span>$11.95</span></li>
                   <li><span>B 9.</span><span>Beef w. Mixed Vegetables, Spring Roll and Crab Rangoon</span><span>$11.95</span></li>
-                  <li><span>B 11.</span><span>Pork Lo Mein, Chicken Fingers and Crab Rangoon</span><span>$11.95</span></li>
+                  <li><span>B 10.</span><span>Pork Lo Mein, Chicken Fingers and Crab Rangoon</span><span>$11.95</span></li>
                 </ul>
               </div>
             </div>
