@@ -2,12 +2,20 @@ import { useState, useEffect } from "react";
 import generalTsosChicken from "../../assets/Images/general-tsos-chicken.jpg";
 import beefWithBroccoli from "../../assets/Images/beef-with-broccoli.jpg";
 import happyFamily from "../../assets/Images/happy-family.jpg";
+import A from "../../assets/Images/A.jpg";
+import puPuPlatter from "../../assets/Images/pu-pu-platter.jpg";
+import houseSpecialLoMein from '../../assets/Images/house-special-lo-mein.jpg';
+import sesameChicken from '../../assets/Images/sesame-chicken.jpg';
 import "./index.css";
 
 const dishes = [
   { name: "C 25. General Tso's Chicken", image: generalTsosChicken },
   { name: "C 5.   Beef w. Broccoli", image: beefWithBroccoli },
-  { name: "E 1.   Happy Family", image: happyFamily }
+  { name: "E 1.   Happy Family", image: happyFamily },
+  { name: "A.   Chicken Wings, Crab Rangoon, Boneless Ribs & Chicken Fingers", image: A },
+  { name: "A.   Pu Pu Platter (for 2)", image: puPuPlatter },
+  { name: "C 20.   Sesame Chicken", image: sesameChicken },
+  { name: "50.   House Special Lo Mein", image: houseSpecialLoMein },
 ];
 
 const Slider = () => {
