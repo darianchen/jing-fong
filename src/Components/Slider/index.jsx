@@ -13,7 +13,7 @@ const dishes = [
   { name: "C 5.   Beef w. Broccoli", image: beefWithBroccoli },
   { name: "E 1.   Happy Family", image: happyFamily },
   { name: "A.   Chicken Wings, Crab Rangoon, Boneless Ribs & Chicken Fingers", image: A },
-  { name: "A.   Pu Pu Platter (for 2)", image: puPuPlatter },
+  { name: "20.   Pu Pu Platter (for 2)", image: puPuPlatter },
   { name: "C 20.   Sesame Chicken", image: sesameChicken },
   { name: "50.   House Special Lo Mein", image: houseSpecialLoMein },
 ];
