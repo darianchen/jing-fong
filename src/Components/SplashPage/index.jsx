@@ -10,7 +10,7 @@ const SplashPage = () => {
 
     return (
         <div>
-            <Modal
+            {/* <Modal
                 isOpen={isOpen}
                 onRequestClose={() => setIsOpen(false)}
                 shouldCloseOnOverlayClick={true}
@@ -36,7 +36,7 @@ const SplashPage = () => {
                 }}
             >
                 {/* Close Button */}
-                <button
+                {/* <button
                     onClick={() => setIsOpen(false)}
                     style={{
                         position: "absolute",
@@ -50,12 +50,12 @@ const SplashPage = () => {
                         cursor: "pointer",
                     }}
                     aria-label="Close"
-                >
-                    ×
-                </button>
+                > */}
+                    {/* ×
+                </button> */}
 
                 {/* Modal Content */}
-                <h2 style={{ fontSize: "22px", marginBottom: "15px" }}>
+                {/* <h2 style={{ fontSize: "22px", marginBottom: "15px" }}>
                     Temporary Closure Notice
                 </h2>
                 <p style={{ fontSize: "16px", lineHeight: "1.5" }}>
@@ -65,8 +65,8 @@ const SplashPage = () => {
                 </p>
                 <p style={{ marginTop: "20px", fontSize: "14px", opacity: 0.8 }}>
                     Thank you for your understanding and continued support.
-                </p>
-            </Modal>
+                </p> */}
+            {/* </Modal> */}
 
             <Slider />
             <div className="restaurant-info">
