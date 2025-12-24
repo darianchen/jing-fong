@@ -10,7 +10,7 @@ const SplashPage = () => {
 
     return (
         <div>
-            {/* <Modal
+            <Modal
                 isOpen={isOpen}
                 onRequestClose={() => setIsOpen(false)}
                 shouldCloseOnOverlayClick={true}
@@ -20,6 +20,7 @@ const SplashPage = () => {
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
+                        zIndex: 1000, // Ensures it stays above other elements
                     },
                     content: {
                         position: "relative",
@@ -32,11 +33,12 @@ const SplashPage = () => {
                         width: "90%",
                         textAlign: "center",
                         fontFamily: "Arial, sans-serif",
+                        border: "none",          // Removes default modal border
                     },
                 }}
             >
                 {/* Close Button */}
-                {/* <button
+                <button
                     onClick={() => setIsOpen(false)}
                     style={{
                         position: "absolute",
@@ -50,23 +52,23 @@ const SplashPage = () => {
                         cursor: "pointer",
                     }}
                     aria-label="Close"
-                > */}
-                    {/* ×
-                </button> */}
+                >
+                    ×
+                </button>
 
                 {/* Modal Content */}
-                {/* <h2 style={{ fontSize: "22px", marginBottom: "15px" }}>
-                    Temporary Closure Notice
+                <h2 style={{ fontSize: "22px", marginBottom: "15px" }}>
+                    Christmas Day Hours
                 </h2>
                 <p style={{ fontSize: "16px", lineHeight: "1.5" }}>
-                    Our restaurant will be <strong>closed from September 20 – 29</strong>.
+                    We are open on Christmas Day from <strong>11:00 AM – 8:00 PM</strong>.
                     <br />
-                    We look forward to welcoming you back on <strong>September 30</strong>.
+                    <span style={{ color: "#ff4d4d", fontWeight: "bold" }}>Please note: We are only accepting Take-Out orders.</span>
                 </p>
                 <p style={{ marginTop: "20px", fontSize: "14px", opacity: 0.8 }}>
-                    Thank you for your understanding and continued support.
-                </p> */}
-            {/* </Modal> */}
+                    Thank you for celebrating the holidays with us!
+                </p>
+            </Modal>
 
             <Slider />
             <div className="restaurant-info">
