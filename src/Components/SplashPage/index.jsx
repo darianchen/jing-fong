@@ -23,9 +23,9 @@ const SplashPage = () => {
                 overlayClassName="closed-modal-overlay"
             >
                 <h2>Closed Notice</h2>
-                <p>We are closed from September 20 to September 27.</p>
+                <p>We are closed from September 20 to September 28.</p>
                 <p>We apologize for the inconvenience.</p>
-                <p>We look forward to welcoming you back on September 28.</p>
+                <p>We look forward to welcoming you back on September 29.</p>
                 <button type="button" onClick={closeModal}>Close</button>
             </Modal>
 
