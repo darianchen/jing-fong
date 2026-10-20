@@ -15,7 +15,7 @@ const SplashPage = () => {
 
     return (
         <div>
-            <Modal
+            {/* <Modal
                 isOpen={isOpen}
                 onRequestClose={closeModal}
                 contentLabel="Closure Notice"
@@ -27,7 +27,7 @@ const SplashPage = () => {
                 <p>We apologize for the inconvenience.</p>
                 <p>We look forward to welcoming you back on October 20th.</p>
                 <button type="button" onClick={closeModal}>Close</button>
-            </Modal>
+            </Modal> */}
 
             <Slider />
             <div className="restaurant-info">
